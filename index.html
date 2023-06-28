@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>James Griffin Portfolio</title>
+</head>
+<body>
+    <nav aria-label="breadcrumb" class="container">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="https://github.com/fex123griffin" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/james-griffin-a6a02b16a/" target="_blank">LinkedIn</a></li>
+
+        </ul>
+
+    </nav>
+    <header class="container">
+        <h1>James Griffin | Front-End Developer</h1>
+        <div class="container headings">
+            <p id="quote-container"></p>
+            
+        </div>
+
+
+    </header>
+    <section class="center">
+        <img src="./images/diploma.jpeg" id="graduation">
+    </section>
+    <section>
+        <div class="headings container">
+            <h2 class="center">Welcome</h2>
+            <p class="indent-me">I am a hardworking and aspiring web developer. I love working with tech to make responsive web pages. I love losing track of the hours in the day while I make web pages. Everyday I aim to learn something new. I also love spending time with my family</p>
+        </div>
+    </section>
+    <section>
+        <div class="headings container">
+            <h2 class="center">More About Me</h2>
+            <p class="indent-me">The past couple of years I have been going to Ivy Tech Community College to complete my technical certificate in Software Development. During these Years at Ivy Tech I have learned so much. I have learned web development and how development cycles work. I have also learned how to use Python and Javascript. I find these programming languages very fun to use in projects. My favorite hobbies are going out for walks and spending time with my family. I am currently engaged to the love of my life, she is in the picture above and I will soon be a step-father. I am excited to see what the next steps in life will bring me.</p>
+        </div>
+    </section>
+    <section class="center">
+        <h2>Projects</h2>
+        <div class="grid">
+
+            <div>
+                <img src="https://picsum.photos/200">
+                <h6>Project1</h6>
+            </div>
+            <div>
+                <img src="https://picsum.photos/200">
+                <h6>Project2</h6>
+            </div>
+
+            <div>
+                <img src="https://picsum.photos/200">
+                <h6>Project3</h6>
+            </div>
+    </section>
+    <h2 class="center">Contact Me</h2>
+    <section class="center">
+        <form class="container" action="https://formsubmit.co/fex123griffin@gmail.com" method="POST">
+
+            <div class="grid">
+                <label for="firstname">
+                    First name
+                    <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+                </label>
+
+                <label for="lastname">
+                    Last name
+                    <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+                </label>
+
+            </div>
+
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="Email address" required>
+            <small>We'll never share your email with anyone else.</small>
+            <button type="submit" value="Send">Submit</button>
+
+        </form>
+    </section>
+    <script src="./index.js"></script>
+</body>
+<hr>
+<footer>&copy; 2023 James Griffin</footer>
+</html>
