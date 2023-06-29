@@ -1,3 +1,4 @@
+
 header, footer{
     text-align: center;
 }
@@ -18,11 +19,6 @@ header, footer{
 
 img {
     border-radius: 5px;
-}
-
-.top-pad {
-    padding-top: 10px;
-
 }
 
 .indent-me {
